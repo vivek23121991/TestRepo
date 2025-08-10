@@ -23,19 +23,19 @@ public class ProdtListPage extends AbstractComponent{
 	}
 	
 	@FindBy(xpath="//div[@class='card-body']/h5/b")
-	List<WebElement> products;
+	private List<WebElement> products;
 	
 	@FindBy(xpath="//div[@class='card-body']/button[2]")
-	List<WebElement> addToCartBtn;
+	private List<WebElement> addToCartBtn;
 	
 	@FindBy(css = "div.ngx-spinner-overlay")
-	WebElement spinner;
+	private WebElement spinner;
 	
 	@FindBy(xpath = "//div[@id='toast-container']")
-	WebElement toast;
+	private WebElement toast;
 	
 	@FindBy(xpath="//button[@routerlink='/dashboard/cart']")
-	WebElement cartBtn;
+	private WebElement cartBtn;
 	
 	
 	

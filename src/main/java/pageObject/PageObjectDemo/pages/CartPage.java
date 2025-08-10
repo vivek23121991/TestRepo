@@ -21,7 +21,7 @@ public class CartPage extends AbstractComponent{
 	}
 	
 	@FindBy(css = "div.infoWrap div h3")
-	WebElement selectedProduct;
+	private WebElement selectedProduct;
 	
 	
 	
